@@ -76,6 +76,9 @@ div.row-header {
     background-color: rgb(26, 72, 196);
     color: white;
     font-size: 80%;
+
+    position: sticky;
+    top: 0;
 }
 
 .fr1 {
