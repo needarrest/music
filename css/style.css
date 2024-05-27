@@ -1,5 +1,9 @@
-body {
+* {
     margin: 0;
+    padding: 0;
+}
+
+body {
     background: #eee;
     font-family: sans-serif;
 }
@@ -34,14 +38,60 @@ a {
   
 ul {
     list-style-type: none;
+}
 
+nav ul {
     display: flex;
     justify-content: center;
-    margin: 0;
-    padding: 0;
     gap: 16px;
 }
 
-li {
+nav li {
     font-size: 18px;
+}
+
+main {
+    margin: 2em auto;
+    max-width: 970px;
+}
+
+section.chart-content {
+    background-color: white;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+div.row {
+    display: flex;
+}
+
+.fr1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fr5 {
+    flex: 5;
+}
+
+.row-rank {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+.row-track {
+    padding: 8px;
+}
+
+.track-title {
+    font-weight: bold;
+}
+
+.track-artist {
+    font-size: 90%;
 }
