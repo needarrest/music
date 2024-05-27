@@ -62,8 +62,20 @@ section.chart-content {
     flex-direction: column;
 }
 
-div.row {
+div.row,
+div.row-header {
     display: flex;
+    flex-direction: row;
+}
+
+div.row {
+    border-bottom: 1px solid rgb(76, 81, 103);
+}
+
+div.row-header {
+    background-color: rgb(26, 72, 196);
+    color: white;
+    font-size: 80%;
 }
 
 .fr1 {
@@ -77,9 +89,14 @@ div.row {
     flex: 5;
 }
 
-.row-rank {
+.row > .row-rank {
     background-color: black;
     color: white;
+}
+
+.row > .row-rank,
+.row:nth-child(2) > .row-lastweek,
+.row:nth-child(2) > .row-peak {
     font-weight: bolder;
     font-size: 150%;
 }
@@ -94,4 +111,8 @@ div.row {
 
 .track-artist {
     font-size: 90%;
+}
+
+.row > .row-lastweek {
+    background-color: #efefef;
 }
