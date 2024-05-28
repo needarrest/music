@@ -56,6 +56,12 @@ main {
     max-width: 970px;
 }
 
+section.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 section.chart-content {
     background-color: white;
     margin: 10px 0;
