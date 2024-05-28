@@ -134,3 +134,37 @@ div.row-header > *:not(.row-track) {
 .row > .row-lastweek {
     background-color: #efefef;
 }
+
+.row > .row-change {
+    font-weight: bolder;
+}
+
+.change-up,
+.change-down {
+    rotate: 45deg;
+}
+
+.change-up,
+.change-down,
+.change-stay {
+    font-size: 200%;
+}
+
+.change-up {
+    color: rgb(68, 129, 24);
+}
+
+.change-down {
+    color: rgb(185, 27, 32);
+}
+
+.change-new {
+    background-color: #fff100;
+    color: black;
+    font-size: 80%;
+    padding: 3px;
+}
+
+.change-stay {
+    color: gray;
+}
