@@ -88,6 +88,14 @@ div.row-header {
     top: 0;
 }
 
+div.row-header > *:not(.row-track) {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .fr1 {
     flex: 1;
     display: flex;
